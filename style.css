@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+/* font-family: "Tenor Sans", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+/* font-family: 'Mrs Saint Delafield', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* NAVBAR */
+#navbar {
+  position: fixed;
+  width: 1200px;
+  background: #fff;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#navbar ul li img {
+  width: 50px;
+}
+
+#navbar ul li a {
+  color: #000;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+/* ABOUT */
+#about {
+  padding: 3rem 1rem;
+}
+
+#about h1 {
+  padding: 2rem 0 1rem;
+  text-align: center;
+  font-weight: 400;
+  font-family:  "Comic Sans MS" , cursive;
+  font-size: 4.2rem;
+}
+
+
+#about p {
+  text-align: center;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+
+/* MY WORK */
+#my-work {
+  padding: 1rem 1rem;
+}
+
+#my-work h4 {
+  text-transform: uppercase;
+  padding: 0 0 2rem;
+  text-align: center;
+}
+
+#my-work #projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#my-work .card {
+  padding: 1.6rem;
+  margin: 1rem;
+  width: 350px;
+  background: #000;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#my-work .card h5,
+#my-work .card h2 {
+  font-weight: 400;
+  padding: 0.2rem 0;
+}
+
+#my-work .card h5 {
+  color: #e5e5e5;
+  line-height: 1.6rem;
+}
+
+#my-work .card h2 {
+  color: aqua;
+}
+
+#my-work .card p {
+  color: #ffffff;
+}
+
+#my-work .card a {
+  display: block;
+  color: #e5e5e5;
+  padding-top: 1.5rem;
+}
+
+/* CONTACT */
+#contact {
+  padding: 1rem 0;
+}
+
+#contact h4 {
+  text-transform: uppercase;
+  padding: 0 0 2rem;
+  text-align: center;
+}
+
+#contact ul {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  justify-content: space-evenly;
+}
+
+#contact ul li a img {
+  width: 35px;
+}
+
+
+/* FOOTER */
+#footer {
+  padding: 1.5rem 0 2rem;
+  background-color: #c7c7c7;
+}
+
+#footer h4 {
+  text-align: center;
+  font-weight: 400;
+}
+
+#footer h4 span {
+  text-transform: uppercase;
+}

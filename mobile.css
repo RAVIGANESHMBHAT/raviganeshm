@@ -1,0 +1,33 @@
+/* NAVBAR */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* ABOUT */
+#about h1 {
+  padding: 2rem 0 0;
+}
+
+#about p {
+  font-size: 1.1rem;
+}
+
+/* MY WORK */
+#my-work {
+  padding: 1rem;
+}
+
+#my-work #projects {
+  justify-content: center;
+}
+
+#my-work .card {
+  margin: 0 0 1.5rem;
+}
+
+/* CONTACT */
+#contact {
+  padding: 1rem 0;
+}
